@@ -10,14 +10,9 @@ const nameInverter = function(name) {
   if (!usedName.includes(' ')) {
     return usedName;
   }
-  const lastIndex = usedName.length - 1;
-  if (!usedName.includes(' ')) {
-    return usedName.substring(1, lastIndex);
-  }
   const nameWords = usedName.split(' ');
   let newNameArray = [];
   let newName = "";
-  const finalNewName = newName.replace(/^\s+|\s+$/g, "");
   if (!usedName.includes('.')) {
     newNameArray = [nameWords[1], nameWords[0]];
     newName = newNameArray.join(', ');
