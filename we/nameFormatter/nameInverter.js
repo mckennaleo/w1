@@ -26,9 +26,6 @@ const nameInverter = function(name) {
     newName = newNameArray.join(' ');
     return newName;
   }
-
-  
-
 };
 
 module.exports = nameInverter;
