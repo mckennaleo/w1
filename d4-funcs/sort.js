@@ -5,12 +5,22 @@ const students = [
   { id: 4, name: "alex",     age: 30 }
 ];
 
-const nameList = (array) => {
-  const newArray = [];
-  for (let i of array) {
-    newArray.push(i);
-  }
-  return newArray.name.sort();
-};
+//create a new array
+//iterate over students
 
-console.log(nameList(students));
+const compare = (a, b) => {
+  
+  const studentsA = a.name()
+  const studentsB = b.name()
+
+  let comparison = 0;
+  if (studentsA > studentsB) {
+    comparison = 1;
+  } else if (studentsA < studentsB) {
+    comparison = -1;
+  }
+  return comparison;
+}
+
+students.sort(compare);
+console.log(compare(students))
