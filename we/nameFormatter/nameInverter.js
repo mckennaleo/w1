@@ -4,7 +4,7 @@ const nameInverter = function(name) {
   }
   const usedName = name.replace(/^\s+|\s+$/g, "");
 
-  if (usedName === "Mr." || usedName === "Mrs." || usedName === "Ms." || usedName === "Dr." || usedName === "Mr. " || usedName === "Mrs. " || usedName === "Ms. " || usedName === "Dr. " || usedName === "") {
+  if (usedName === "Mr." || usedName === "Mrs." || usedName === "Ms." || usedName === "Dr." || usedName === "") {
     return "";
   }
   if (!usedName.includes(' ')) {
