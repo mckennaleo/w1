@@ -6,8 +6,7 @@ const letterPositions = (sentence) => {
       results[sentence[i]].push(i);
     }
   }
-
   return results;
 };
 
-console.log(letterPositions('hows everyone doing?'));
+module.exports = letterPositions;

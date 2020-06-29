@@ -7,4 +7,5 @@ const eqArrays = (actual, expected) => {
     return false;
   }
 };
+
 module.exports = eqArrays;

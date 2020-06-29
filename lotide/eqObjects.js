@@ -32,7 +32,4 @@ const eqObjects = (obj1, obj2) => {
   }
 };
 
-const ab = { a: "1", b: "2", c: "lol"};
-const ba = { b: "2", a: "1", c: "lol"};
-
-console.log(eqObjects(ab, ba));
+module.exports = eqObjects;
