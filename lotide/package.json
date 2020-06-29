@@ -1,7 +1,7 @@
 {
-  "name": "package",
+  "name": "@mckennaleo/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "a library of functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -15,6 +15,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Léo McKenna",
   "license": "ISC"
 }
