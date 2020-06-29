@@ -1,15 +1,6 @@
 const tail = function(array) {
-  const newArray = array.shift();
-  return newArray;
+  const lastPos = array.length - 1;
+  return array[lastPos];
 };
 
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
-
-assertEqual('lodad', 'load');
+module.exports = tail;
