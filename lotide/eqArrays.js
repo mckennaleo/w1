@@ -1,4 +1,4 @@
-const eqArray = (actual, expected) => {
+const eqArrays = (actual, expected) => {
   const actualToString = actual.toString();
   const expectedToString = expected.toString();
   if (actualToString === expectedToString) {
@@ -7,5 +7,4 @@ const eqArray = (actual, expected) => {
     return false;
   }
 };
-
-console.log(eqArray([1, 2, 3], [1, 2, 3]));
+module.exports = eqArrays;
