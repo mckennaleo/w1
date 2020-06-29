@@ -1,5 +1,4 @@
 const assert = require('chai').assert;
-const eqObjects = require('../eqObjects');
 const letterPositions = require('../letterPositions');
 
 describe("#letterPositions", () => {
